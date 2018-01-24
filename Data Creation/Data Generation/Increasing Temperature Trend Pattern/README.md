@@ -1,14 +1,14 @@
 # Generate Increasing Temperature Trend
 Problem Statement/Background :- Generate two Increasing temperature trend pattern with 100 set each. Each sample in a pattern must not be duplicate.Each sample must have some variance with respect to other sample.
 
-High Level Requirement :- Python 3.6
+High Level Requirement :- Python 3.6  
 
-Implementation :-
-We made two simple pattern
-•Linear increasing Trend pattern
-•Convex increasing Trend pattern
+Implementation :-  
+We made two simple pattern  
+•Linear increasing Trend pattern  
+•Convex increasing Trend pattern  
 
-Steps to follow :
+Steps to follow :  
 1. Generate Basic Pattern:  
     a. Generate a straight line from 0 to 100.  
     b. It could be drawn in 50 set of points or 70 set of points or 80 set of points, difference will only be in slope.  

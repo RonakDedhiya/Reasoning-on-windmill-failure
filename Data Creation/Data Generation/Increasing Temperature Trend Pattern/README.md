@@ -15,7 +15,7 @@ Steps to follow :
     c. If drawing straight line in 50 set of points, we still left with 50 points, since total points are 100.  
     d. Among this 50 points, some points can be at start of line having value 0 and some points at end of line having          value 100 as shown in figure.  
     <img src='Images/linear_rise.PNG'>  
-    This is Linear Increasing Temperature Trend Pattern
+    This is Linear Increasing Temperature Trend Pattern  
     e. Now if we apply cube root to whole set of points,we would get somethng like this.  
     <img src='Images/convex_rise.PNG'>  
     This is our Convex Increasing Temperature Trend Pattern

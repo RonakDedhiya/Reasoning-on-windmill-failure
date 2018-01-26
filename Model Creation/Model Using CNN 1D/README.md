@@ -28,6 +28,6 @@ Steps to be followed :
       3. Model Implementation :   
         We have used Keras ( high level machine learning  API with Tensorflow at back-end ). For convolution Keras provides   keras.layers.Conv1D(), so we can easily define and add layer to our model.    
 
-        We used Sequential Model, The Sequential model is a linear stack of layers. Then we have added two convolution layer with output     filler size of 64 for each layer, the we have added MaxPooling1D() to select maximum point for output. After that we have added   another two convolution layers with filter size of 128 each, then we have used GlobalAveragePooling1D()   to select average of points   for output. At the last for final output we used Dense() with output size of 6 because we have 6 different classes and 'Softmax'   activation function.    
+        We used Sequential Model, The Sequential model is a linear stack of layers. Then we have added two convolution layer with output     filler size of 64 for each layer, the we have added MaxPooling1D() to select maximum point for output. After that we have added   another two convolution layers with filter size of 128 each, then we have used GlobalAveragePooling1D()   to select average of points   for output. At the last for final output we used Dense() with output size of 6 because we have 6 different classes and 'Softmax'   activation function.  
 
         <img src='/Images/Conv1D_code2.png'>   

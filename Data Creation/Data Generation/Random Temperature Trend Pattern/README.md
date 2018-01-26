@@ -13,7 +13,7 @@ To create two different data patterns we wrote python script.
         b. Since Average Temperature is 30 degree, we add 30 to noise.  
         c. We generate 10 random integers and insert 0 to this 10 random integer position.  
         d. This is our signal with random spikes.  
-      <img src='/Images/Anemometer_Errors.PNG'>    
+      <img src='/Images/Anemometer_Errors.png'>    
 
   2. Sudden rise and fall in data:  
       Steps:  
@@ -22,4 +22,4 @@ To create two different data patterns we wrote python script.
         c. Generate a random number between 1 to 50 && 55 to 90, call them as a & b.  
         d. Insert any value between 65 to 70 over the points between a & b.  
         e. This is our signal with sudden rise and wall.    
-      <img src='/Images/Generator_speed_discrepancy.PNG'>    
+      <img src='/Images/Generator_speed_discrepancy.png'>    

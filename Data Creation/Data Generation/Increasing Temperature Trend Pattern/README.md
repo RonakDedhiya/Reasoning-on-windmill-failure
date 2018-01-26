@@ -1,9 +1,9 @@
 # Generate Increasing Temperature Trend
-Problem Statement/Background :- Generate two Increasing temperature trend pattern with 100 set each. Each sample in a pattern must not be duplicate.Each sample must have some variance with respect to other sample.
+Problem Statement/Background :- Generate two Increasing temperature trend pattern with 100 set each. Each sample in a pattern must not be duplicate. Each sample must have some variance with respect to other sample.  
 
-High Level Requirement :- Python 3.6  
+High Level Requirement :- Python 3.6 , Jupyter Notebook  
 
-Implementation :-  
+Implementation :-    
 We made two simple pattern  
 •Linear increasing Trend pattern  
 •Convex increasing Trend pattern  

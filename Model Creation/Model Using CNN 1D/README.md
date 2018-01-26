@@ -17,15 +17,15 @@ Steps to be followed :
 1.Model Description :  
 The figure below provides the CNN model architecture that we are going to implement using Keras. The model will consist of one   convolution layer followed by max pooling and another convolution layer. After that, the model will have fully connected layer   which is connected to Softmax layer. Remember that the convolution and max-pool layers will be 1D or temporal.    
   
-<img src='/Images/Conv1D.png'>    
- 
+<img src='/Images/Conv1D.png'>  
+
 2.Input/output configuration :      
 We have generated Temperature Pattern with each sample having 100 points. These 100 points represent temperature values.         These set of 100 points are given as an input to the model. So input dimension is [100,1] for our model. 
 We have considered 6 causes for Device Failure.Thus our output soft max layer output dimension will be 6.      
 For training we required 3D data means data in 3 dimensional array. So we converted input data in dimension           [data_sample,100,1], refer below code for data conversion:        
 
-<img src='/Images/Conv1D_code1.png'>   
-  
+<img src='/Images/Conv1D_code1.png'>  
+
 3.Model Implementation :   
 We have used Keras ( high level machine learning  API with Tensorflow at back-end ). For convolution Keras provides  
 keras.layers.Conv1D(), so we can easily define and add layer to our model.    

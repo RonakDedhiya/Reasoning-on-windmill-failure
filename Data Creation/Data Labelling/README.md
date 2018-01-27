@@ -12,10 +12,10 @@ Test dataset is important to check how good our model is to unseen data. we crea
 
 Description :-  
 Data_labelling.py Script provide basic code of how to assign Many causes to Train dataset.  
-  
-  <img src='/Images/Label1.PNG'>  
-  <img src='/Images/Label2.PNG'>  
-  <img src='/Images/Label3.PNG'>  
-  <img src='/Images/Label4.PNG'>  
-  <img src='/Images/Label5.PNG'>  
-  <img src='/Images/Label6.PNG'>  
+
+  <img src='/Dataset/Images/Label1.PNG'>  
+  <img src='/Dataset/Images/Label2.PNG'>  
+  <img src='/Dataset/Images/Label3.PNG'>  
+  <img src='/Dataset/Images/Label4.PNG'>  
+  <img src='/Dataset/Images/Label5.PNG'>  
+  <img src='/Dataset/Images/Label6.PNG'>  

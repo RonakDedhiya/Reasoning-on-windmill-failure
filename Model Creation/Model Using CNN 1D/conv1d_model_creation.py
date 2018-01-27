@@ -12,7 +12,7 @@ import numpy as np
 def read_data():
 
     ## Read Train data
-    df_train=pd.read_csv('./dataset/train_data_one_to_one.csv')
+    df_train=pd.read_csv('/Dataset/train_data_one_to_one.csv')
 
    ## Extract 100 values of sample
     df_x=df_train.iloc[:,1:101]
@@ -25,7 +25,7 @@ def read_data():
     df_y_train=df_train.iloc[:,101]
 
     ## Similar Approach for test data
-    df_test=pd.read_csv('./dataset/test_data.csv')
+    df_test=pd.read_csv('/Dataset/test_data.csv')
     df_x_test=df_test.iloc[:,1:101]
     x_test=np.array(df_x_test)
     x_test=np.expand_dims(x_test, axis=2)

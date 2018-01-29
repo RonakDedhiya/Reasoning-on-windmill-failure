@@ -1,3 +1,5 @@
+Link to refer :- https://github.com/jupyter/kernel_gateway_demos/blob/master/scotch_demo/notebooks/scotch_api_python.ipynb
+
 Installing Kernel Gateway for API
 pip install jupyter_kernel_gateway
 jupyter kernelgateway --generate-config

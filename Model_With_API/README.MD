@@ -6,18 +6,21 @@ jupyter kernelgateway --generate-config
   
 Hosted at port 8889  
 Jupyter kernelgateway --KernelGatewayApp.api='kernel_gateway.notebook_http' 
---KernelGatewayApp.seed_uri='C:/Users/A661249/Documents/Project/Reasoning/Predict_The_Cause_API.ipynb'  
+--KernelGatewayApp.seed_uri='Predict_The_Cause_API.ipynb'  
   
 Hosted at port 8890  
 Jupyter kernelgateway --KernelGatewayApp.api='kernel_gateway.notebook_http'
---KernelGatewayApp.seed_uri='C:/Users/A661249/Documents/Project/Reasoning/EventDataAPI.ipynb'  
+--KernelGatewayApp.seed_uri='EventDataAPI.ipynb'  
   
 Postman :-  
 1.To check application  
-Post URL :- http://localhost:8889/Predict_The_Causes    
+Post URL :-http://localhost:8890/Get_Predictions    
 Body:    
-{"timestamp":"2012-01-01 00:33:20"}  
+{"timestamp":"2017-12-21 06:29:54"} 
 Header = Content-Type = application/json  
+{"timestamp":"2017-12-13 10:23:04"} 
+
+13-12-2017  10:22:50
   
 2. To check Only EventDataAPI  
 Post URL :- http://localhost:8890/Get_Data  

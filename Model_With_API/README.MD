@@ -5,10 +5,12 @@ pip install jupyter_kernel_gateway
 jupyter kernelgateway --generate-config  
   
 Hosted at port 8889  
-Jupyter kernelgateway --KernelGatewayApp.api='kernel_gateway.notebook_http' --   KernelGatewayApp.seed_uri='C:/Users/A661249/Documents/Project/Reasoning/Predict_The_Cause_API.ipynb'  
+Jupyter kernelgateway --KernelGatewayApp.api='kernel_gateway.notebook_http' 
+--KernelGatewayApp.seed_uri='C:/Users/A661249/Documents/Project/Reasoning/Predict_The_Cause_API.ipynb'  
   
 Hosted at port 8890  
-Jupyter kernelgateway --KernelGatewayApp.api='kernel_gateway.notebook_http' -- KernelGatewayApp.seed_uri='C:/Users/A661249/Documents/Project/Reasoning/EventDataAPI.ipynb'  
+Jupyter kernelgateway --KernelGatewayApp.api='kernel_gateway.notebook_http'
+--KernelGatewayApp.seed_uri='C:/Users/A661249/Documents/Project/Reasoning/EventDataAPI.ipynb'  
   
 Postman :-  
 1.To check application  

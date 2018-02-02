@@ -1,0 +1,1 @@
+# Decreasing Temperature Trend Pattern
